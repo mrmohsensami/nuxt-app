@@ -10,6 +10,9 @@
 
 <script>
 export default {
+    asyncData(context) {
+      console.log(context);
+    },
     head: {
         title: 'About Us',
         meta: [
