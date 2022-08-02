@@ -8,10 +8,24 @@
 <script>
 export default {
   layout: 'posts',
-    head() {
-        return {
-            'title': 'POSTS'
-        }
+    head: {
+      title: 'Posts',
+      meta: [
+        { 
+          hid: 'description', name: 'description', content: 'This is Local Posts meta description'
+        },
+      ],
+      script: [
+          {
+              src: '/main.js',
+          }
+      ],
+      link: [
+          {
+              rel: 'stylesheet',
+              href: 'style.css',
+          }
+      ]
     }
 }
 </script>
