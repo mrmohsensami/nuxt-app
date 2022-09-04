@@ -2,12 +2,16 @@
   <div>
     <h1 class="text-4xl text-center">POSTS</h1>
     <hr>
+    {{ posts }}
   </div>
 </template>
 
 <script>
 export default {
   layout: 'posts',
+  data: () => ({
+    posts : []
+  }),
     head: {
       title: 'Posts',
       meta: [
@@ -26,6 +30,9 @@ export default {
               href: 'style.css',
           }
       ]
+    },
+    async created() {
+      this.posts = await this.$axios.$get('/posts');
     }
 }
 </script>
