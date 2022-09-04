@@ -11,7 +11,8 @@
 <script>
 export default {
     asyncData(context) {
-      console.log(context);
+    //   console.log(context);
+      context.$message('new message')
     },
     head: {
         title: 'About Us',

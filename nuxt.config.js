@@ -24,7 +24,13 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/message.js'
+    // '~/plugins/vue-easy-toast.client.js',
+    {src: '~/plugins/vue-easy-toast.js', mode: 'client'},
+    '~/plugins/message.js',
+  ],
+
+  transpile: [
+    '~/plugins/vue-easy-toast.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

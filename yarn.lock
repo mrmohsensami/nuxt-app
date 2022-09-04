@@ -8528,6 +8528,11 @@ vue-client-only@^2.0.0:
   resolved "https://registry.npmjs.org/vue-client-only/-/vue-client-only-2.1.0.tgz"
   integrity sha512-vKl1skEKn8EK9f8P2ZzhRnuaRHLHrlt1sbRmazlvsx6EiC3A8oWF8YCBrMJzoN+W3OnElwIGbVjsx6/xelY1AA==
 
+vue-easy-toast@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vue-easy-toast/-/vue-easy-toast-1.0.5.tgz#c2b5064b7b0e0b69500c9f38b0c63ff1a151e0b7"
+  integrity sha512-Tx7TNn19wAbaqvreJMrYrlTwMtHMyaEoG/ISfmFQ4ABWdyB4qphU+eialiOSpGbRFg5w61cBGBkVy3lyJroOPw==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
