@@ -31,7 +31,10 @@ export default {
           }
       ]
     },
-    async created() {
+    // async created() {
+    //   this.posts = await this.$axios.$get('/posts');
+    // }
+    async fetch() {
       this.posts = await this.$axios.$get('/posts');
     }
 }
