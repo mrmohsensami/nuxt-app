@@ -21,15 +21,16 @@
 // }
 
 export const state = () => ({
-    message: 'hello'
+    message: 'hello',
+    username: 'user'
 })
 
-export const actions = {
-    nuxtServerInit(contextVuex, contextNuxt) {
-        console.log({
-            contextVuex,
-            contextNuxt
-        })
-        console.log(this.$axios);
-    }
-}
+// export const actions = {
+//     nuxtServerInit(contextVuex, contextNuxt) {
+//         console.log({
+//             contextVuex,
+//             contextNuxt
+//         })
+//         console.log(this.$axios);
+//     }
+// }
